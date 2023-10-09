@@ -1,0 +1,15 @@
+The position property specifies the type of positioning method used for an element.
+
+ABSOLUTE positioning:
+
+In this an element is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+Absolute positioned elements are removed from the normal flow, and can overlap elements.
+
+
+Relative positioning:
+
+In this an element is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
